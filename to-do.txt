@@ -1,0 +1,21 @@
+* OK Fields allowed
+    * There is fields that front can't see, for example: Password
+    * But these fields exist in Schema
+    * POST and PATCH: Don't need, because the Schema validates the fields
+    * GET: Verify the fields alloweds
+* Filters allowed
+    * Block the query "filter", allow danger Filters
+    * Allow to filter just some fields (in whitelist)
+* Custom Filters
+    * How to invoke custom fields
+    * ?date_between=2020-03-01,2020-03-31
+    * Call the method that configure this filter
+* OK Custom actions/methods
+    * Allow custom routes
+    * For example: POST /users/login
+    * It's not a simple CRUD
+
+* Nginx: How to configure reverse proxy to Rails and to Node?
+
+* How to work datetime fields (Timezone) in mongodb?
+
